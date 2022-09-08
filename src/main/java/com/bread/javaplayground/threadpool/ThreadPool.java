@@ -1,4 +1,4 @@
-package com.bread.javaplayground;
+package com.bread.javaplayground.threadpool;
 
 import java.util.ArrayList;
 import java.util.List;

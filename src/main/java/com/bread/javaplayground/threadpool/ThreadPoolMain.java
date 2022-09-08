@@ -1,4 +1,4 @@
-package com.bread.javaplayground;
+package com.bread.javaplayground.threadpool;
 
 public class ThreadPoolMain {
 
@@ -15,6 +15,7 @@ public class ThreadPoolMain {
                 System.out.println(message);
             });
         }
+
         threadPool.waitUntilAllTasksFinished();
         threadPool.stop();
     }
